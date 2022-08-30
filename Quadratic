@@ -1,0 +1,29 @@
+package samyak;
+import java.util.*;
+
+public class Samyak {
+
+
+    public static void main(String args[])
+    {
+
+      int a,b,c;
+      double r1,r2;
+      
+      System.out.println("Enter the value of a,band c");
+       Scanner scn = new Scanner(System.in);
+       a = scn.nextInt();
+       b = scn.nextInt();
+       c= scn.nextInt();
+       
+       r1 = (-b + Math.sqrt(b*b-4*a*c))/(2*a);
+       r2 = (-b - Math.sqrt(b*b-4*a*c))/(2*a);
+    
+        System.out.println("Roots of Quadratic equation is "+ r1 +" "+ r2);
+      
+      
+      
+   }
+
+}
+
