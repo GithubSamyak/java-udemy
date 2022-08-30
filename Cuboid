@@ -1,0 +1,28 @@
+package samyak;
+import java.util.*;
+
+public class Samyak {
+
+
+    public static void main(String args[])
+    {
+
+      int length,breadth,height;
+      int area,volume;
+      
+      System.out.println("Enter the value of a,band c");
+       Scanner scn = new Scanner(System.in);
+       length= scn.nextInt();
+       breadth = scn.nextInt();
+       height = scn.nextInt();
+       
+       area = 2*((length*breadth) + (breadth*height) + (length*height));
+        volume = length*breadth*height;
+        System.out.println("Area is  "+ area + "and Volume is  "+ volume);
+      
+      
+      
+   }
+
+}
+
